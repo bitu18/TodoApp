@@ -51,36 +51,50 @@ a {
 // Mobile: width < 740px
 @media only screen and (max-width: 46.1875em) {
     body {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .App {
-        width: 99%;
+        width: 98%;
+    }
+    .Header_input__EcdHW {
+        font-size: 2rem;
     }
     .TodoItem_todo-item__HyKTN {
         min-width: 50%;
+        font-size: 2rem;
+    }
+    .TodoItem_date__1zRlW {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+    .TodoItem_edit__J7eKj {
+    }
+    .TodoItem_delete__Qo\+3g {
     }
     .TodoItem_edit__J7eKj,
     .TodoItem_delete__Qo\+3g {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .TodoItem_edit-input__MR\+RZ {
-        max-width: 90%;
+        max-width: 88%;
     }
-    .Footer_footer__kHKfE {
-        padding: 4px 10px;
-    }
+
     .Footer_filter__wWteJ {
         position: absolute;
-        left: 24%;
+        left: 25%;
         transform: none;
     }
     .Footer_selection-link__P8EuY {
         padding: 2px 6px;
         margin: 0;
     }
-    .Footer_footer__kHKfE,
+    .Footer_footer__kHKfE {
+        padding: 0 6px;
+        font-size: 1.4rem;
+    }
     .Footer_clear-completed__-6Jqa {
-        font-size: 1.6rem;
+        padding-right: 6px;
+        font-size: 1.4rem;
     }
 }
 
